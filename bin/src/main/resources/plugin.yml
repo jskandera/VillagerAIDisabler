@@ -1,0 +1,16 @@
+name: VillagerAIDisabler
+main: me.joff1507.villagerai.VillagerAIDisabler
+version: 1.0
+api-version: 1.20
+commands:
+  villagerai:
+    description: Gestion de l'IA des villageois
+    usage: /<command> <reload|enable|disable|version>
+    permission: villagerai.use
+permissions:
+  villagerai.use:
+    description: Permet d’utiliser les commandes du plugin
+    default: op
+  villagerai.ignore:
+    description: Exclut le joueur de la détection de proximité
+    default: false
