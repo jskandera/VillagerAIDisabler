@@ -1,0 +1,9 @@
+disable-by-default: true
+
+excluded-professions:
+  - librarian
+
+excluded-names:
+  - TraderNPC
+
+distance-from-player-threshold: 20
